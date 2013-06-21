@@ -1,0 +1,97 @@
+html, body, form, h1, h2, h3, h4, p, ul, li, address, input, textarea, select{ 
+			padding:0; 
+			margin:0;
+			font-family:Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4{font-weight:normal;}
+
+body{font-size:12px;
+	color:#636363;
+	line-height:20px;
+	background:url(../img/fundo_site.jpg) left top repeat-x;
+}
+
+.engloba{text-align: left;
+		margin:0 auto;
+		width:1000px;
+}
+
+p{padding:10px 0;}
+
+img{border:none;}
+
+a{text-decoration:none; color:#636363; outline: 0;}
+a:hover{text-decoration:underline}
+
+h1{
+	font-size:18px;
+	color:#375891;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+h2{ font-size:15px;
+	font-weight:bold;
+}
+.cabecalho{
+	height:107px;
+}
+.logo{
+	float:left;
+	width:190px;
+	padding-left:10px;
+	padding-top:2px;
+}
+.centro{
+	padding:20px 15px 50px 15px;
+	background-color:#fff;
+}
+.rodape{clear:both;
+		border-top:1px solid #e8e8e8;
+		padding:10px;
+		text-align:center;
+		font-size:11px;
+		background-color:#f5f5f5;
+}
+.label{ 
+	padding:0px 0 2px 0;
+	color: #797979;
+	font-weight: bold;
+}
+
+.btnenviar{
+	width: 234px;
+	padding:10px 0;
+	color: #949494;
+	font-size: 13px;
+	border: 1px solid #cecece;
+	font-weight:bold;
+	margin-top:10px;
+	background-color:#f0f0f0;
+	cursor:pointer;
+}
+
+.msgerror{
+	color: #f00; 
+	display:inline;
+}
+
+.engformlogin{
+	padding:30px 0 0 25px;
+}
+.nomesistema{
+	font-size:30px;
+	padding:45px 0 0 40px;
+	float:left;
+}
+
+.message {
+    background-color: #F5F5F5;
+    border: 1px solid #CCCCCC;
+    color: #009966;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 0 0 5px;
+    padding: 5px;
+}
